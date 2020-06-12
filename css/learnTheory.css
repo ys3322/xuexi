@@ -1,0 +1,87 @@
+a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+li a{
+    display: inline-block;
+    width: 100%;
+    /*文字溢出设置成省略号*/
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+li a:hover {
+    color: red;
+}
+
+/* 主体内容区 */
+.content {
+    width: 1000px;
+    /*左右水平居中*/
+    margin: 20px auto;
+}
+
+/* 当前网站的位置显示  学习强国 >> 学习文汇*/
+.content .position {
+    margin-bottom: 15px;
+}
+
+/* 设置内容标题的样式 */
+.title .span-title {
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d30000;
+    margin-left: 10px;
+    float: left;
+}
+
+/* 设置内容图片的边距 */
+.content-img {
+    margin-top: 15px;
+}
+/*设置内容图片的宽高*/
+.content-img img {
+    width: 1000px;
+    height: 360px;
+}
+
+
+/*设置字体样式  十九大文献*/
+.report-title .title {
+    color: #d30000;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 5px;
+    border-left: 7px #d30000 solid;
+}
+/*列表上方的横线*/
+.report-title hr {
+    margin-top: 15px;
+}
+/*设置列表样式*/
+.report-list ul li {
+    list-style: none;
+    padding: 5px 0;
+    font-size: 14px;
+}
+/*每一个报告标题 更多两个字*/
+.report-title .more{
+    color: #888888;
+    font-size: 14px;
+    font-weight: normal;
+    float: right;
+    cursor: pointer;
+}
+/*左侧列表左浮动*/
+.report1 {
+    float: left;
+}
+/*右侧列表 右浮动*/
+.report2 {
+    float: right;
+    width: 350px;
+}

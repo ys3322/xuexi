@@ -1,0 +1,205 @@
+.activity-wrapper {
+  background-color: #C90913;
+
+  .bg-banner {
+    width: 100%;
+    height: 304px;
+    background-image: url("../img/study_tv_bg.png");
+    background-size: cover;
+  }
+
+  .content {
+    width: 1000px;
+    height: 524px;
+    .activity-list {
+      margin: 10px auto;
+    }
+
+    .rotation-item {
+      height:250px;
+      margin: 80px auto;
+      position: relative;
+      .item {
+        width: 300px;
+        height:250px;
+        background-color: #e0e0e0;
+        float: left;
+        img{
+          width: 300px;
+          height: 220px;
+          /*解决img标签使用时的间隙问题，也可设置显示方式为block*/
+          vertical-align: middle;
+        }
+        div{
+          line-height: 30px;
+          padding: 0 8px;
+          color: black;
+          /*设置居中并省略多余的文本内容*/
+          text-align: center;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+      .item2{
+        margin: 0 50px;
+      }
+      .item3{
+        float: right;
+      }
+
+      .row{
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        top: 50%;
+        /*向上平移20px，使其上下居中activity-list*/
+        transform: translateY(-20px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+      }
+      .row-left{
+        left: -50px;
+        background-image: url("../img/row_left.png");
+      }
+      .row-right{
+        right: -50px;
+        background-image: url("../img/row_right.png");
+      }
+    }
+  }
+
+}
+.study-tv-list-wrapper{
+  /*列表内容*/
+  padding-bottom: 50px;
+  .study-tv-list{
+    /*学习电视台列表内容*/
+    height: 163px;
+    margin: 20px auto;
+    .study-list-title{
+      /*学习电视台标题*/
+      border-bottom: #CA0913 4px solid;
+      position: relative;
+      .title-left{
+        /*学习电视台 左侧的文字*/
+        width: 150px;
+        line-height: 55px;
+        background-color: #C90913;
+        font-weight: bold;
+        font-size: 19px;
+        color: white;
+        vertical-align: middle;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        img{
+          /*文字前面的图标*/
+          margin-left: 10px;
+          //transform: translateY(5px);
+          vertical-align: middle;
+        }
+      }
+      .title-right{
+        /*右侧的片库 两个字*/
+        line-height: 55px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 19px;
+        color: black;
+        img{
+          /*文字前面的图标*/
+          vertical-align: text-bottom;
+        }
+      }
+    }
+    .tv-list{
+      /*电视台列表*/
+      background-color: #F8F8F8;
+      height: 70px;
+      padding:  10px 0;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #111;
+      display: flex;
+      flex-wrap: wrap;
+      .tv-item{
+        /*电视台 子项*/
+        width: 165px;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 35px;
+        span{
+          /*子项里面的文字位置*/
+          padding: 5px 10px;
+          display: inline;
+          position: relative;
+          &:hover{
+            /*鼠标悬停效果*/
+            color: white;
+            background-color: #C90913;
+            /*鼠标小手样式*/
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+  }
+
+  .first-channel{
+    /*第一频道列表*/
+    height: 283px;
+    .channel-title{
+      /*顶部的标题*/
+      height: 45px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px #D30000 solid;
+      .title-left{
+        color: #1b1b1d;
+        float: left;
+        span{
+          /*第一频道 文字*/
+          font-weight: 800;
+          font-size: 22px;
+          line-height: 45px;
+          margin-left: 10px;
+        }
+      }
+      .title-right{
+        /*右侧的文字标题*/
+        float: right;
+        line-height: 45px;
+        font-size: 18px;
+        text-align: center;
+        a{
+          text-decoration: none;
+          cursor: pointer;
+          color: black;
+        }
+      }
+    }
+
+    .channel-list{
+      /*频道列表*/
+      .channel-item{
+        float: left;
+        /*每一个子项 右侧margin值间隔*/
+        margin-right: 18.67px;
+        img{
+          width: 236px;
+          height: 177px;
+        }
+        div{
+          font-size: 14px;
+          line-height: 22px;
+          &:hover{
+            color: #CB1E1E;
+          }
+        }
+      }
+    }
+  }
+}

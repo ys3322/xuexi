@@ -1,0 +1,308 @@
+/*定义每个页面共用的CSS样式*/
+body {
+  //padding: 0;
+  margin: 0;
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/*去掉默认的超链接样式*/
+a {
+  text-decoration: none;
+}
+
+/*去掉默认的列表等的内外边距*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Microsoft YaHei, -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+/*设置列表子项的默认样式 */
+ul li {
+  list-style: none;
+}
+
+/*右侧的固定导航*/
+.link-flex {
+  width: 105px;
+  position: fixed;
+  top: 60px;
+  right: 55px;
+  background-color: #fff;
+}
+
+.link-flex li {
+  background-color: #d7d7d7;
+  /*文字 居中设置*/
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.link-flex li a {
+  /*设置成inline-block模式，就可以设置宽高了*/
+  display: inline-block;
+  height: 38px;
+  width: 105px;
+  line-height: 40px;
+  font-size: 18px;
+  /*字体加粗设置*/
+  font-weight: 900;
+  color: #111;
+}
+
+.link-flex li a:hover {
+  background: #fb9801;
+  color: #fff;
+}
+
+.link-flex .flex-info {
+  background-color: #B50413;
+  color: #fff;
+  padding-bottom: 5px;
+}
+
+.link-flex .flex-info a {
+  /*设置成inline-block模式，就可以设置宽高了*/
+  display: inline-block;
+  height: 50px;
+  width: 105px;
+  color: #fff;
+  /*设置行高50px 让其垂直居中*/
+  line-height: 50px;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+}
+
+.link-flex .flex-info .qcode {
+  background-color: #A4221F;
+  padding-top: 10px;
+}
+
+.link-flex .flex-info .qcode .qrcode-img {
+  width: 85px;
+  height: 85px;
+  /*二维码图片居中*/
+  margin: 0 auto;
+  /*设置二维码的图片链接*/
+  background-image: url("https://bootcdn.xuexi.cn/dyxx_5a1d70322da1335610ea6a87/1548164324521/b9cb90bac825074ef044d479f74095b7.png");
+  background-size: 85px 85px;
+}
+
+.link-flex .flex-info .qcode .qrcoe-text {
+  line-height: 20px;
+  font-size: 12px;
+  /*二维码图片下方的文字水平居中*/
+  text-align: center;
+}
+
+.link-flex .flex-info .service-text {
+  line-height: 28px;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+}
+
+.link-flex .flex-info .phone {
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.link-flex .flex-info .service-phone {
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+/*顶部的logo区域*/
+.top-logo-wrapper {
+  width: 100%;
+  height: 250px;
+  background-color: #ce0000;
+  background-image: url("../img/top_bg.png");
+}
+
+.top-logo-wrapper .top-logo {
+  width: 1000px;
+  margin: 0 auto;
+  height: 250px;
+  /*父元素 开启相对定位 方便子元素定位*/
+  position: relative;
+}
+
+.top-logo-wrapper .top-logo .logo-left {
+  /*子元素开启局对定位*/
+  position: absolute;
+  /*位置属性*/
+  top: 35px;
+  left: 50px;
+}
+
+.top-logo-wrapper .top-logo .logo-right {
+  width: 454px;
+  height: 164px;
+  /*子元素开启局对定位*/
+  position: absolute;
+  top: 58px;
+  right: 22px;
+}
+
+/*中间的菜单导航*/
+.nav-menu-wrapper {
+  width: 100%;
+  height: 84px;
+  background-color: #F1EEE9;
+}
+
+.nav-menu-wrapper .nav-menu {
+  width: 1000px;
+  /*水平居中*/
+  margin: 0 auto;
+  height: 100%;
+}
+
+.nav-menu-wrapper .nav-menu .menu {
+  /*浮动到左侧*/
+  float: left;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+
+.nav-menu-wrapper .nav-menu .menu a {
+  display: inline-block;
+  width: 110px;
+  padding: 0 11px;
+  font-size: 18px;
+  color: #0f0e0e;
+  line-height: 34px;
+  font-weight: 500;
+}
+
+.nav-menu-wrapper .nav-menu .menu a:hover {
+  color: #ff0000;
+}
+
+.nav-menu-wrapper .nav-menu .login {
+  /*浮动到右侧*/
+  float: right;
+  width: 150px;
+  height: 84px;
+  position: relative;
+}
+
+.nav-menu-wrapper .nav-menu .login ul {
+  height: 64px;
+  width: 88px;
+  /*开启绝对定位*/
+  position: absolute;
+  /*设置图片正居中*/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/*底部的全力做好疫情防范工作图片*/
+.bottom-content {
+    width: 1000px;
+    margin: 0 auto 10px auto;
+    height: 169px;
+
+  }
+
+.friendship-links {
+  /*底部友情链接CSS样式设置*/
+  height: 145px;
+  //background-color: #e0a800;
+  padding-bottom: 10px;
+
+  .links-left {
+    width: 110px;
+    height: 145px;
+    float: left;
+    color: black;
+    font-size: 18px;
+    border-right: #DEDEDE solid 1px;
+  }
+
+  .links-right {
+    float: right;
+    width: 888px;
+    height: 145px;
+
+    .link-item {
+      color: #111;
+      font-size: 16px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 25px;
+      line-height: 20px;
+      /*放不下时，会自动换行，inline-block这个属性值应和inline属性进行区分*/
+      /*inline-block：设置成该显示方式的元素，会有块元素和行内元素共同特征
+        即：可以设置宽高、不会独占一行、并且溢出自动换行 */
+      display: inline-block;
+      cursor: pointer;
+      &:hover{
+        color: #CC0100;
+      }
+    }
+  }
+}
+.contact-info {
+  /*最底下的联系信息*/
+
+  .bottom-logo {
+    margin-top: 25px;
+    text-align: center;
+
+    .btm-logo1 {
+      /*像文本一样的显示方式 ，父元素通过text-align 可以实现居中*/
+      display: inline-block;
+      width: 63px;
+      height: 77px;
+      background-image: url("../img/bottom_logo1.png");
+      background-size: cover;
+    }
+
+    .btm-logo2 {
+      /*像文本一样的显示方式 ，父元素通过text-align 可以实现居中*/
+      display: inline-block;
+      width: 71px;
+      height: 66px;
+      background-image: url("../img/bottom_logo2.png");
+      background-size: cover;
+      margin-left: 20px;
+    }
+  }
+
+  .info {
+    /*最下方的页面信息*/
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 35px;
+    .warning{
+      /*注意提醒*/
+      color: #CC0100;
+      margin-top: 10px;
+      a{
+        /*右侧的官网超链接*/
+        font-weight: bold;
+        color: black;
+        margin-left: 3px;
+        &:hover{
+          cursor: pointer;
+          color: #CC0100;;
+        }
+      }
+    }
+    p {
+      margin-top: 10px;
+      line-height: 20px;
+    }
+  }
+}

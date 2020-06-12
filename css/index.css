@@ -1,0 +1,124 @@
+/*定义一些对于整个页面都有效的CSS样式*/
+body {
+  padding: 0;
+  margin: 0;
+  height: 1300px;
+}
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+/*去掉默认的超链接样式*/
+a {
+  text-decoration: none;
+}
+/*去掉默认的列表的内外边距*/
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*设置列表子项的默认样式 */
+ul li {
+  list-style: none;
+}
+/*新闻区域*/
+.new-content-wrapper .new-content {
+  width: 1000px;
+  margin: 0 auto;
+}
+.new-content-wrapper .new-content .new-top {
+  /*顶部新闻标题*/
+  padding-bottom: 7px;
+  margin-bottom: 18px;
+  border-bottom: #D30000 5px solid;
+}
+.new-content-wrapper .new-content .new-top h1 {
+  text-align: center;
+  color: #D30000;
+  font-size: 38px;
+  font-weight: 700;
+  /*使文字更加紧凑*/
+  letter-spacing: -2px;
+  margin: 50px 0 10px;
+}
+.new-content-wrapper .new-content .new-top .new {
+  /*元素内的文字居中*/
+  text-align: center;
+}
+.new-content-wrapper .new-content .new-top a {
+  /*所有的超链接标签*/
+  color: black;
+  font-size: 17px;
+  letter-spacing: -1px;
+  margin-right: 12px;
+}
+.new-content-wrapper .new-content .new-top a:hover {
+  color: #D30000;
+}
+.new-content-wrapper .new-content .new-top span {
+  /*更多新闻 文字 样式*/
+  font-weight: 600;
+  margin-left: 10px;
+  /*设置字体*/
+  font-family: SimSun, serif;
+  color: #D30000;
+  font-size: 16px;
+}
+.new-content-wrapper .new-content .new-top .hr {
+  /*底部的细线，最下面的粗线使用的边框属性*/
+  height: 2px;
+  margin-top: 25px;
+  background-color: #D30000;
+}
+.new-content-wrapper .new-content .new-bottom {
+  /*底部的新闻图片*/
+  position: relative;
+}
+.new-content-wrapper .new-content .new-bottom:hover > .row-right,
+.new-content-wrapper .new-content .new-bottom:hover > .row-left {
+  /*按钮悬停时，将左右两个图片显示出来*/
+  display: block;
+}
+.new-content-wrapper .new-content .new-bottom .row-right,
+.new-content-wrapper .new-content .new-bottom .row-left {
+  /*左右的箭头图片*/
+  width: 45px;
+  height: 60px;
+  /*让其消失，鼠标悬停时，出现*/
+  display: none;
+  background-color: rgba(43, 39, 39, 0.5);
+  vertical-align: center;
+  padding-top: 8px;
+  box-sizing: border-box;
+}
+.new-content-wrapper .new-content .new-bottom .row-right:hover,
+.new-content-wrapper .new-content .new-bottom .row-left:hover {
+  /*悬停时，设置背景色*/
+  background-color: rgba(43, 39, 39, 0.7);
+}
+.new-content-wrapper .new-content .new-bottom .row-left {
+  /*使用定位属性，确定箭头位置*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.new-content-wrapper .new-content .new-bottom .row-right {
+  /*使用定位属性，确定箭头位置 */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+/*底部的banner*/
+.bottom-wrapper {
+  width: 100%;
+  padding: 20px 0;
+}
+.bottom-wrapper .bottom-content {
+  width: 1000px;
+  margin: 0 auto;
+  height: 169px;
+}
+/*# sourceMappingURL=index.css.map */

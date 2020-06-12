@@ -1,0 +1,290 @@
+.banner {
+  /*大的展示图片*/
+  width: 100%;
+  height: 490px;
+  background: no-repeat url("../img/sthudy_science_bg.png");
+  background-size: cover;
+}
+.science-list-wrapper {
+  /*中间的网站链接导航*/
+  width: 100%;
+  height: 60px;
+  background: no-repeat url("../img/science_list_bg.png");
+}
+.science-list-wrapper .science-list {
+  /*链接列表*/
+  width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+}
+.science-list-wrapper .science-list .pre {
+  /*向前的小箭头*/
+  color: #2365cb;
+  cursor: pointer;
+  float: left;
+  line-height: 60px;
+  padding: 0 4px;
+}
+.science-list-wrapper .science-list .next {
+  /*后一页的小箭头*/
+  color: #fcfb7d;
+  cursor: pointer;
+  float: right;
+  line-height: 60px;
+  padding: 0 4px;
+}
+.science-list-wrapper .science-list a {
+  /*列表中的超链接 样式设置*/
+  color: white;
+  font-size: 18px;
+  height: 60px;
+  font-weight: normal;
+  line-height: 60px;
+  padding: 0 7px;
+  display: inline-block;
+}
+.science-list-wrapper .science-list a:hover {
+  background-color: #143E97;
+}
+.content-wrapper {
+  /*本网页的 主要内容区域*/
+  width: 100%;
+  height: 2460px;
+  background-image: url("../img/science_contetn_bg.png");
+  background-size: cover;
+}
+.content-wrapper .content {
+  /*内容区域*/
+  padding: 50px 0;
+}
+.content-wrapper .content .word {
+  /*习大大文汇区域 两句金句*/
+  height: 230px;
+  position: relative;
+}
+.content-wrapper .content .word .word-banner1 {
+  /*习近平文汇1*/
+  width: 415px;
+  height: 51px;
+  background-image: url("../img/science_xjp1.png");
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+}
+.content-wrapper .content .word .word-banner2 {
+  /*习近平文汇2*/
+  width: 415px;
+  height: 51px;
+  background-image: url("../img/science_xjp2.png");
+  background-size: contain;
+  background-position: left;
+  position: absolute;
+  left: 130px;
+  top: 80px;
+}
+.content-wrapper .content .main-news {
+  /*主要新闻 两则*/
+  width: 1000px;
+  height: 416px;
+  margin: 20px auto;
+}
+.content-wrapper .content .main-news .box-left {
+  width: 495px;
+  margin-right: 5px;
+  height: 416px;
+  background-image: url("../img/science_news_box_left.png");
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+.content-wrapper .content .main-news .box-right {
+  width: 495px;
+  height: 416px;
+  background-image: url("../img/science_news_box_right.png  ");
+  float: right;
+  position: relative;
+  cursor: pointer;
+}
+.content-wrapper .content .main-news .news-content {
+  /*新闻内容 标题*/
+  height: 60px;
+  width: 485px;
+  line-height: 60px;
+  color: #111;
+  margin: 5px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+.content-wrapper .content .item-title {
+  /*所有子项的标题  公用这一个 只是在style标签中将背景图片换一下即可*/
+  height: 90px;
+}
+.content-wrapper .content .item-title .item-logo {
+  /*标题的名称，使用图片形式*/
+  width: 324px;
+  height: 38px;
+  background-image: url("../img/science_story.png");
+  background-size: cover;
+}
+.content-wrapper .content .item-title .item-more {
+  /*加载更多*/
+  width: 1000px;
+  height: 9px;
+  margin-top: 8px;
+  border: 1px solid #48cbf9;
+  position: relative;
+}
+.content-wrapper .content .item-title .item-more .img-more {
+  /*使用图片表示*/
+  width: 52px;
+  height: 27px;
+  background-image: url("../img/science_more.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -1px;
+  top: -11px;
+  cursor: pointer;
+}
+.content-wrapper .content .scientist-story {
+  /*科学家故事*/
+  width: 1000px;
+  margin: 10px 0;
+}
+.content-wrapper .content .scientist-story .item-content {
+  /*内容区域*/
+  width: 1000px;
+  background-color: #3BB1CC;
+}
+.content-wrapper .content .scientist-story .item-content .row {
+  margin: 0;
+}
+.content-wrapper .content .scientist-story .item-content .card {
+  width: 250px;
+  margin: 0 auto;
+}
+.content-wrapper .content .scientist-story .item-content .card img {
+  width: 250px;
+  height: 250px;
+}
+.content-wrapper .content .scientist-story .item-content .col {
+  width: 250px;
+  padding: 0;
+}
+.content-wrapper .content .scientist-story .item-content .info {
+  /*左侧的人物信息*/
+  color: white;
+  text-align: right;
+  vertical-align: middle;
+  position: relative;
+  top: 150px;
+  height: 250px;
+}
+.content-wrapper .content .scientist-story .item-content .info .name {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.content-wrapper .content .scientist-story .item-content .info .something {
+  background-color: #D8EFF5;
+  color: #3BB1CC;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  padding-right: 10px;
+}
+.content-wrapper .content .scientist-story .item-content .raw-right {
+  /*信息栏处的箭头*/
+  position: absolute;
+  left: 250px;
+  top: 5px;
+  z-index: 999;
+  border: transparent solid 15px;
+  border-left: #3BB1CC solid 15px;
+}
+.content-wrapper .content .scientist-story .item-content .raw-left {
+  position: absolute;
+  /*【注意】 不知道为什么30px不行，有点误差*/
+  left: -29.61px;
+  top: 5px;
+  z-index: 999;
+  /*先让四个边框隐藏，再让其中一个显示，就出现箭头了*/
+  border: transparent solid 15px;
+  border-right: #3BB1CC solid 15px;
+}
+.content-wrapper .content .science-front {
+  /*科技前沿*/
+  width: 1000px;
+  padding: 10px 0;
+}
+.content-wrapper .content .science-front .item-content {
+  /*子项内容区域 分两块 资讯列表  和 前沿技术奖*/
+  width: 1000px;
+}
+.content-wrapper .content .science-front .item-content .front-list {
+  /*科技资讯列表*/
+  width: 490px;
+  float: left;
+}
+.content-wrapper .content .science-front .item-content .front-list li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 36px;
+}
+.content-wrapper .content .science-front .item-content .front-list li:hover {
+  color: #D30000;
+  cursor: pointer;
+}
+.content-wrapper .content .science-front .item-content .front-award {
+  /*前沿技术奖列表*/
+  float: left;
+  width: 505px;
+}
+.content-wrapper .content .science-front .item-content .front-award .award {
+  /*中间树立的奖项文字div*/
+  float: left;
+  width: 70px;
+  height: 305px;
+  background-color: #3BB1CC;
+  font-size: 28px;
+  color: white;
+  position: relative;
+}
+.content-wrapper .content .science-front .item-content .front-award .award .award-text {
+  /*颁奖文字内容 让其居中*/
+  margin: 10px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-90px);
+}
+.content-wrapper .content .science-front .item-content .front-award .award-list {
+  /*右侧的前沿奖项列表*/
+  width: 430px;
+  float: left;
+}
+.content-wrapper .content .science-front .item-content .front-award .award-list ul {
+  background-color: #DEE2E5;
+}
+.content-wrapper .content .science-front .item-content .front-award .award-list li {
+  /*单个子项设置*/
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  height: 60px;
+  color: black;
+  line-height: 60px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.content-wrapper .content .science-front .item-content .front-award .award-list li:hover {
+  background-color: #006EBB;
+  color: white;
+}
+/*# sourceMappingURL=studyScience.css.map */

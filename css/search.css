@@ -1,0 +1,92 @@
+.search-content-wrapper {
+  width: 100%;
+}
+.search-content-wrapper .search-content {
+  /*搜索页面的主要内容区域*/
+  width: 980px;
+  height: 450px;
+  margin: 40px auto;
+}
+.search-content-wrapper .search-content span {
+  /*网站位置 文字 ==>  学习强国 >> 搜索 */
+  color: #666;
+  line-height: 22px;
+  font-size: 14px;
+}
+.search-content-wrapper .search-content .title-list {
+  /*搜索上方的水平文字列表*/
+  margin-top: 20px;
+  border-bottom: 2px #CB1E1E solid;
+}
+.search-content-wrapper .search-content .title-list .item {
+  /*每个子项设置样式*/
+  display: inline-block;
+  /*改变默认的盒子模型宽高的的计算方式
+          默认width设置的是width，现在是从外面边框进行计算
+        */
+  box-sizing: border-box;
+  padding: 7px 16px 7px 16px;
+  min-width: 80px;
+  /*文字设置*/
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: #CB1E1E;
+}
+.search-content-wrapper .search-content .title-list .active {
+  /*第一个是 特殊的一个 有背景色 有边角*/
+  padding: 7px 16px 7px 16px;
+  /*文字颜色、背景颜色特殊 单独设置*/
+  color: #fff;
+  background-color: #CB1E1E;
+  /*上面两个边角的设置*/
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.search-content-wrapper .search-content .search-input {
+  /*input元素的属性设置*/
+  width: 680px;
+  margin: 50px auto;
+  text-align: center;
+}
+.search-content-wrapper .search-content .search-input form {
+  /*表单元素*/
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+.search-content-wrapper .search-content .search-input form .input-text {
+  /*输入框*/
+  width: 456px;
+  height: 44px;
+  padding: 11px 12px;
+  /*更好默认的宽高计算方式*/
+  box-sizing: border-box;
+  /*类似于边框的外围线需要去掉*/
+  outline: none;
+  /*设置默认边框*/
+  border: 1px solid #D9D9D9;
+}
+.search-content-wrapper .search-content .search-input form .input-text:focus {
+  border: 1px solid #CB1E1E;
+  outline: 0;
+}
+.search-content-wrapper .search-content .search-input form .btn-search {
+  /*右边的搜索按钮*/
+  display: inline-block;
+  text-align: center;
+  width: 104px;
+  /*去掉烦人的默认样式*/
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #CB1E1E;
+  color: #fff;
+  font-size: 16px;
+  /*使用position属性，让其上下撑开最大化*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+/*# sourceMappingURL=search.css.map */

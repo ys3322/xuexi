@@ -1,0 +1,56 @@
+
+/* 网页内容区*/
+.content {
+    position: relative;
+}
+/*顶部的标题*/
+.top-title{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.top-title span{
+    cursor: pointer;
+}
+/*最大的标题*/
+.top-title .main-h1{
+    color: #d30000;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 15px;
+}
+/*左侧的小红块  和下面的十四个坚持 小红块共用*/
+.block-left{
+    width: 5px;
+    height: 40px;
+    background-color: #d30000;
+    display: inline-block;
+}
+/*小红快旁边的 八个明确四个字 和下面的十四个坚持公用*/
+.main-title{
+    color: #d30000;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    top:0;
+    left: 20px;
+}
+/*八个明确*/
+.clear8{
+    position: relative;
+    top: 20px;
+}
+/*八个明确图片内容*/
+.clear8 .new-img img{
+    width: 1000px;
+
+    margin: 0 auto;
+}
+
+/* 十四个坚持 */
+.insist {
+    position: relative;
+}
+/* 十四个坚持 具体内容 */
+.instand li img {
+    width: 1000px;
+}

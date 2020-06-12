@@ -1,0 +1,91 @@
+
+/* 主体内容区 */
+.content {
+    width: 1000px;
+    margin: 20px auto;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #ce0100;
+}
+
+/* 当前网站的位置显示  学习强国 >> 十九大时间*/
+.content .position {
+    margin-bottom: 15px;
+}
+
+/* 设置顶部的大标题 */
+.top-title .span-title {
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d30000;
+    margin-left: 10px;
+    float: left;
+}
+
+/* 设置大标题下面 图片的边距 */
+.content-img {
+    margin-top: 15px;
+}
+/*设置内容图片的宽高*/
+.content-img img {
+    width: 1000px;
+    height: 360px;
+}
+/*报告列表 距离内容图片高度是15px*/
+.reports {
+    padding-top: 15px;
+    margin-bottom: 20px;
+    width: 1000px;
+    height: 680px;
+
+}
+
+/* 设置第一列报告 样式 */
+.report0 {
+    float: left;
+}
+/* 设置第二列报告 样式 */
+.report1 {
+    float: left;
+    margin-left: 50px;
+}
+/* 设置第三列报告 样式 */
+.report2 {
+    float: left;
+    margin-top: 50px;
+}
+/* 设置第四列报告 样式 */
+.report3 {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/*设置每一个报告标题的样式*/
+.report-title .title {
+    color: #d30000;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 5px;
+    border-left: 32px #d30000 solid;
+}
+/*每一个报告标题 有的更多设置*/
+.report-title .more{
+    color: #888888;
+    font-size: 14px;
+    font-weight: normal;
+    float: right;
+    cursor: pointer;
+}
+
+.report-title hr {
+    margin-top: 15px;
+}
+.report-list ul li {
+    padding: 5px 0;
+    font-size: 14px;
+}
