@@ -35,3 +35,7 @@ rowRight.onclick = function () {
     }
     banner.src = "./img/" + "banner" + num + ".png";
 };
+
+
+
+alert("本网站仅供学习使用，更多内容请访问官网！");
