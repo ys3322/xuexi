@@ -38,4 +38,4 @@ rowRight.onclick = function () {
 
 
 
-alert("本网站仅供学习使用，更多内容请访问官网！");
+alert("本网站仅学习使用，更多内容请移步官网！");
